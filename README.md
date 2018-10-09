@@ -12,4 +12,8 @@ fit_all_leptons_new_data_multinest_dampe_gravitino_shade.py
 
 fit_all_leptons_new_data_multinest_noSum_gravitino_shade.py
 
+After running one of the files you will produce a series of valid points. To marginalize to find confidence regions we use the Johannes' code "multinest_marginals.py". It runs as follows using the prefix used in the fitting code:
 
+ python multinest_marginals.py fit_multines_C_Gravitino_DAMPE_shade_4_
+ 
+ The output of that code represents the favourable regions of the parameter space that can fit the data.
